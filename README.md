@@ -1,10 +1,8 @@
-
 # Python Skeleton
 
 Welcome to the Credit Suisse Coding Challenge 2018. Below are instructions for getting started on the Challenge!
 
 ### Competition Rules
-
 
 Challenge Questions are available on our website at www.credit-suisse.com/codingchallenge.
 
@@ -33,12 +31,10 @@ In order to submit your code to the Automated Evaluator, it first needs to be de
 #### Connecting Heroku to your Git repository
 
 1) Set up a Heroku account. This is free, and can be set up at www.heroku.com
-2) Download the Herou Command Line tools (www.devcenter.heroku.com/articles/heroku-cli)
-3) In a command prompt, log in to your Heroku account using the command:
-    <code>heroku login</code>
+2) Download the Heroku Command Line tools (devcenter.heroku.com/articles/heroku-cli)
+3) In a command prompt, log in to your Heroku account using the command: <code>heroku login</code>
 4) Navigate to your git repository in the command prompt.
-5) Run:
-    <code>heroku create</code>
+5) Run: <code>heroku create</code>
 
 #### Deploying to Heroku
 
