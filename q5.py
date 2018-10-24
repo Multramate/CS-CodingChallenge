@@ -1,8 +1,10 @@
-# ONLY EDIT FUNCTIONS MARKED CLEARLY FOR EDITING
-
 import numpy as np
+import collections as col
 
 def question05(allowedAllocations, totalValue):
-  # modify and then return the variable below
-  answer = -1
-  return answer
+  allocs = 0
+  blocks = col.deque(sorted(allowedAllocations))
+  while totalValue > 0:
+    totalValue = totalValue - blocks.pop()
+    allocs = allocs + 1
+  return allocs
